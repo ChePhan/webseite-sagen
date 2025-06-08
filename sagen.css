@@ -65,6 +65,11 @@ body {
     -webkit-transform: translateY(-400%);
     transform: translateY(-400%); 
 }
+
+#button_f:checked ~ #carousel .p-wrapper {
+    -webkit-transform: translateY(-500%);
+    transform: translateY(-500%); 
+}
             
 [class^="panel_"] {
     overflow: auto;
@@ -101,7 +106,8 @@ body {
 #button_b:checked ~ #navigation .label_b,
 #button_c:checked ~ #navigation .label_c,
 #button_d:checked ~ #navigation .label_d,
-#button_e:checked ~ #navigation .label_e {
+#button_e:checked ~ #navigation .label_e,
+#button_f:checked ~ #navigation .label_f {
      cursor: default;
      color: #fff;
      background-color: #222;
