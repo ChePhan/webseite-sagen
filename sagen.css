@@ -13,7 +13,10 @@ body {
     color: #000000;
     background-color: #FFFFFF;
 }
-            
+
+h2 {
+    margin-bottom:12px;
+}
 #container {
     display: flex;
     justify-content: center;
@@ -31,7 +34,7 @@ body {
     width: 800px;
     height: 600px;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #FF00FF;
 }
             
 .p-wrapper {
