@@ -116,6 +116,11 @@ p {
     -webkit-transform: translateY(-600%);
     transform: translateY(-600%); 
 }
+
+#button_g:checked ~ #carousel .p-wrapper {
+    -webkit-transform: translateY(-700%);
+    transform: translateY(-700%); 
+}
             
 [class^="panel_"] {
     overflow: auto;
@@ -154,7 +159,8 @@ p {
 #button_d:checked ~ #navigation .label_d,
 #button_e:checked ~ #navigation .label_e,
 #button_f:checked ~ #navigation .label_f,
-#button_g:checked ~ #navigation .label_g {
+#button_g:checked ~ #navigation .label_g,
+#button_h:checked ~ #navigation .label_h {
      cursor: default;
      color: #fff;
      background-color: #222;
